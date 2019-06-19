@@ -1,15 +1,2 @@
 # aws-lambda-js
 Simple Lambda call from JS
-
-
-ARN - arn:aws:lambda:us-east-1:XXX:function:sampleFunction
-
-Lambda Function Code:
-
-import json
-def lambda_handler(event, context):
-    # TODO implement
-    return {
-        'statusCode': 200,
-        'body': json.dumps('Hello from sampleFuntion in Lambda!')
-    }
